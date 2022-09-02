@@ -211,6 +211,13 @@ ant-menu-item:hover {
   .btn_margin {
     margin-right: -50px;
   }
+  .responsive_profile_btn,
+  .responsive_hire_me_btn {
+    justify-content: center !important;
+  }
+  .arrow {
+    margin-left: 30px !important;
+  }
 }
 @media (max-width: 390px) {
   .responsive_hire_me_btn,

@@ -20,7 +20,10 @@ function Footeer({ footerStyle }) {
         <Row className="footer">
           <Col>
             <Col>
-              <Title level={3} style={{ color: "white" }}>
+              <Title
+                level={3}
+                style={{ color: "white", paddingBottom: "20px" }}
+              >
                 Portfolio
               </Title>
             </Col>
@@ -33,7 +36,10 @@ function Footeer({ footerStyle }) {
         <Row className="footer">
           <Col>
             <Col>
-              <Title level={3} style={{ color: "white" }}>
+              <Title
+                level={3}
+                style={{ color: "white", paddingBottom: "20px" }}
+              >
                 Social media
               </Title>
             </Col>

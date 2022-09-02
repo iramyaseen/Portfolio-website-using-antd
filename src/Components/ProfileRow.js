@@ -31,7 +31,7 @@ function ProfileRow() {
             className="responsive_hire_me_btn btn active"
           >
             Hire me
-            <Arrow />
+            <Arrow className="arrow" />
           </Button>
         </Col>
         <Col>
@@ -57,7 +57,7 @@ function ProfileRow() {
             }}
           >
             Portfolio
-            <Arrow />
+            <Arrow className="arrow" />
           </Button>
         </Col>
       </Row>
